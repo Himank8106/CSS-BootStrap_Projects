@@ -1,0 +1,223 @@
+/* Navbar */
+#top_nav{
+    background-color: #daac00 ;
+    padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 40px !important;
+} 
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 45px;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 2;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+
+@media only screen and (max-width:1000px)  {
+    #searchform{
+        margin-bottom: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width:500px)  {
+    #top_nav{
+        padding: 0;
+    }
+}
+
+/* Banner */
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#banner-btn-2{
+    border: 2px solid white;
+    color: white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width:1300px) {
+    #bannertext h1{
+        font-size: 50px;
+    }   
+}
+
+@media only screen and (max-width:1100px) {
+    #bannertext h1{
+        font-size: 40px;
+    }
+
+    #bannering img{
+        padding-top: 70px;
+    }
+}
+
+/* Service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-btn{
+    columns: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+#service-img{
+    padding: 5%;
+}
+
+@media only screen and (max-width:1100px) {
+    #service-img{
+        padding: 10%;
+    }
+}
+
+/* Counter */
+#counter-section{
+    background-color: #fcc302;
+
+}
+
+.counter-icon{
+    font-size: 50px;
+}
+
+/* blog */
+#blog{
+    padding: 70px 0;
+}
+
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+.article-detail{
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+.article-date, .article-link{
+    color: #00bec9;
+}
+
+/* Footer */
+#footer{
+    background-color: #343434;
+    padding: 60px 0;
+}
+
+#footer h4{
+    font-size: 35px;
+}
+
+#footer a, footer p{
+    font-size: 18px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-form{
+    margin: 10px 0;
+}
+
+#footer-searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 10px;
+    max-width: 350px;
+    width: 100%;
+    position: relative;
+    left: 10px;
+}
+
+#footer-search-submit{
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.social-icon{
+    font-size: 25px;
+    padding-left: 8px;
+}
+
+@media only screen and (max-width:1304px) {
+    #footer-searchbox{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width:852px) {
+    #footer-searchbox{
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #footer-searchbox{
+        max-width: 200px;
+    }
+
+    #footer{
+        padding-top: 10px;
+    }
+
+    #footer h4{
+        padding-top: 50px;
+    }
+}
